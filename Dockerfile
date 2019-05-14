@@ -1,8 +1,8 @@
-FROM alpine:3.9
+FROM openjdk:8-jre-alpine
+
+RUN apk add git
 
 ENV REV=latest
-
-RUN apk --update add openjdk8-jre git
 
 WORKDIR /app
 
