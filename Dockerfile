@@ -1,6 +1,6 @@
-FROM openjdk:8-jre-alpine
+FROM openjdk:17-slim
 
-RUN apk add git
+RUN apt-get update && apt-get install -y git wget
 
 ENV REV=latest
 
