@@ -2,14 +2,14 @@
 
 ## Usage
 
-To build latest version:
+To build the latest version:
 ```sh
 docker run --rm -v $(pwd):/out genius/spigot-builder
 ```
 
-To build specific version:
+To build a specific version:
 ```sh
 docker run --rm -v $(pwd):/out -e REV=1.17.1 genius/spigot-builder
 ```
 
-spigot jar will be in the current directory
+spigot jar file will be in the current directory
